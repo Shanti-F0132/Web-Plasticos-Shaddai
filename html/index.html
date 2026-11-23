@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Inicio · Plásticos Shaddai</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header>
+    <div class="wrap">
+      <a class="logo" href="index.html">
+        <b>S</b>
+        <div>
+          <small>PLASTICOS</small>
+          <span>SHADDAI</span>
+        </div>
+      </a>
+      <button id="burger" aria-label="Menú">☰</button>
+      <nav>
+        <a href="index.html" class="on">Inicio</a>
+        <a href="index.html#servicios">Servicios</a>
+        <a href="catalogo.html">Catálogo</a>
+        <a href="index.html#clientes">Clientes</a>
+        <a href="index.html#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <form class="buscar" id="buscar">
+      <input id="q" placeholder="Busca tu producto" aria-label="Buscar producto">
+      <button class="btn">🔍 Buscar</button>
+    </form>
+
+    <div class="carr" id="carr">
+      <div class="txt"></div>
+      <img alt="">
+      <button type="button" class="flecha" id="prev" aria-label="Anterior">‹</button>
+      <button type="button" class="flecha" id="next" aria-label="Siguiente">›</button>
+    </div>
+  </main>
+
+  <section id="nosotros">
+    <div class="wrap">
+      <h2 class="t">Plásticos Shaddai</h2>
+      <p class="sub">Productos plásticos y de empaque, y servicios de transformación del plástico para tu negocio.</p>
+    </div>
+  </section>
+
+  <section class="g" id="catalogo">
+    <div class="wrap">
+      <h2 class="t">Catálogo</h2>
+      <p class="sub">Explora nuestras categorías</p>
+      <div class="grid" id="cats"></div>
+      <p style="text-align:center;margin-top:24px">
+        <a class="btn v" href="catalogo.html">Ver todo el catálogo</a>
+      </p>
+    </div>
+  </section>
+
+  <section id="servicios">
+    <div class="wrap">
+      <h2 class="t">Nuestros servicios</h2>
+      <p class="sub">Fabricamos y transformamos según tus necesidades</p>
+      <div class="serv">
+        <ul>
+          <li>Precorte</li>
+          <li>Sellado de fondo<small>Hasta 1 metro</small></li>
+          <li>Sellado lateral</li>
+          <li>Extrusión</li>
+          <li>Impresión</li>
+        </ul>
+        <img src="img/servicios.jpg" alt="Maquinaria de Plásticos Shaddai">
+      </div>
+    </div>
+  </section>
+
+  <section class="g" id="clientes">
+    <div class="wrap">
+      <h2 class="t">Nuestros clientes</h2>
+      <p class="sub">Espacio para los logos de los clientes</p>
+      <div class="clientes">
+        <div>Logo cliente</div>
+        <div>Logo cliente</div>
+        <div>Logo cliente</div>
+        <div>Logo cliente</div>
+        <div>Logo cliente</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <div class="wrap">
+      <h2 class="t">Contacto y ubicación</h2>
+      <p class="sub">&nbsp;</p>
+      <div class="cont">
+        <div>
+          <ul>
+            <li>📱 WhatsApp: <a href="https://wa.me/573102691677" target="_blank">310 2691677</a></li>
+            <li>✉️ <a href="mailto:plasticoshadai@gmail.com">plasticoshadai@gmail.com</a></li>
+            <li>📷 Instagram: plasticoshadai</li>
+            <li>📍 Cra. 66A No. 4B - 02, Barrio Pradera</li>
+          </ul>
+          <a class="btn" target="_blank"
+            href="https://www.google.com/maps/dir/?api=1&destination=Cra+66A+4B-02,+Bogotá">Cómo llegar</a>
+        </div>
+        <iframe loading="lazy" title="Mapa"
+          src="https://www.google.com/maps?q=Cra+66A+4B-02,+Bogotá&output=embed"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <footer>© 2026 Plásticos Shaddai · Cra. 66A No. 4B - 02, Barrio Pradera</footer>
+
+  <div id="lb"><img alt="Hoja del catálogo"></div>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

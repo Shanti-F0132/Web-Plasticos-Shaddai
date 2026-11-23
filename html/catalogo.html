@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Catálogo · Plásticos Shaddai</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="wrap">
+        <a class="logo" href="index.html">
+          <b>S</b>
+          <div>
+            <small>PLASTICOS</small>
+            <span>SHADDAI</span>
+          </div>
+        </a>
+        <button id="burger" aria-label="Menú">☰</button>
+        <nav>
+          <a href="index.html">Inicio</a>
+          <a href="index.html#servicios">Servicios</a>
+          <a href="catalogo.html" class="on">Catálogo</a>
+          <a href="index.html#clientes">Clientes</a>
+          <a href="index.html#contacto">Contacto</a>
+        </nav>
+      </div>
+    </header>
+    <main class="wrap" style="padding-bottom: 40px">
+      <h2 class="t" style="margin-top: 28px">Catálogo</h2>
+      <form class="buscar" id="buscar">
+        <input id="q" placeholder="Busca tu producto" aria-label="Buscar producto" />
+      </form>
+      <div class="tabs" id="tabs"></div>
+      <div class="grid" id="prods"></div>
+    </main>
+    <footer>© 2026 Plásticos Shaddai · Cra. 66A No. 4B - 02, Barrio Pradera</footer>
+    <div id="lb"><img alt="Hoja del catálogo" /></div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
